@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica de Consultas</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  </style>
+</head>
+<body>
+
+  <h1>Clínica de Consultas</h1>
+
+  <button type="button" onclick="menuPrincipal()">Abrir Menu</button>
+
+  <table id="pacientesTable">
+    <thead>
+      <tr>
+        <th>Número</th>
+        <th>Nome</th>
+        <th>Telefone</th>
+      </tr>
+    </thead>
+    <tbody id="pacientesTableBody"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
